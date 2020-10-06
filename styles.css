@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    .map-container-6{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        }
+        .map-container-6 iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+        
+        }
+        .text {
+            display:inline-block;
+        }
+        .custom-btn {
+            max-width: 100%;
+            padding-left:25px;
+            padding-right:25px;
+        }
+        ul{
+
+            margin-left: 3px;
+
+            padding: 12px 0 0 0;
+
+            list-style-type:"-";
+
+            
+
+
+            cursor: default;
+
+            width: 100%px; /* COULD BE THIS */
+
+            background-color: none;
+        }
+        .list-group-item {
+            border-left: 0 none;
+            border-right: 0 none;
+            border-bottom: 0 none;
+            border-top: 0 none;
+            background-image: linear-gradient(#E1EAF7 , #FFFFFF);
+            padding: 10px 0px;
+            list-style-type: "-";
+            opacity: 1;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        body {
+            
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+          }
+        .color{
+            background-image: linear-gradient(#E1EAF7 , #FFFFFF);
+        }
+        .jumbotron {
+            background: none
+        }
+        footer{
+            background-image: linear-gradient(#E1EAF7 , #FFFFFF);
+        }
+        header,
+        footer {
+        flex: none;
+        }
+        /* .top{
+            color:#FFFFFF ;
+            text-emphasis-color: black;
+        } */
+        ul.dashed {
+            list-style-type: none;
+          }
+          ul.dashed > li {
+            text-indent: -5px;
+          }
+          ul.dashed > li:before {
+            content: "-";
+            text-indent: -5px;
+          }
+          li{
+            margin-bottom: 10px;
+        }
